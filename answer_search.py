@@ -10,7 +10,7 @@ class AnswerSearcher:
     def __init__(self):
         self.g = Graph(
             host="127.0.0.1",
-            http_port=7474,
+            port_number=7474,
             user="lhy",
             password="lhy123")
         self.num_limit = 20
